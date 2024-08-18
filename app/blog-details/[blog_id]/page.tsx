@@ -35,10 +35,10 @@ const relatedArticles = [
 export default function BlogDetailsPage() {
    return (
       <Container size="xl" py="xl">
-         <Title align="center" order={1} mb="md">
+         <Title order={1} mb="md">
             Top 10 places to visit in Norway this summer
          </Title>
-         <Group position="center" mb="lg">
+         <Group mb="lg">
             <Group>
                <Avatar src="https://via.placeholder.com/40" alt="Author" />
                <Text size="sm">By John Doe</Text>
